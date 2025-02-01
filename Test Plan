@@ -1,0 +1,27 @@
+**Test Objectives:**
+
+To verify that the Random Date Generator tool generates random dates within the specified date range.
+To verify that the tool generates the correct number of dates as specified by the user.
+To verify that the tool supports different date formats as specified by the user.
+To identify any bugs or usability issues with the tool.
+
+**Scope:**
+
+The test focuses on:
+Functional Testing : checking correct output based on inputs
+Boundary Value Testing : valid start/end dates
+Negative Testing : handling invalid inputs
+UI Validation : ensuring correct user interaction
+Integration with other systems or external data sources will not be covered in this scope.
+
+**Testing Approach:**
+
+Functional Testing – Validate correct date generation based on user inputs.
+Boundary Value Testing – Test the minimum (Example:2020-01-01) and maximum (Example:2099-12-31) limits.
+Negative Testing – Check system behavior for invalid inputs (e.g., incorrect formats).
+UI Validation – Ensure correct format selection and display.
+Equivalence Partitioning – Divide input values into valid and invalid partitions (e.g., valid months 1-12, invalid 13+).
+Boundary Value Analysis – Test edge cases like 12-31 23:59:59 and 01-01 00:00:00.
+
+
+
