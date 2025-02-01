@@ -1,0 +1,44 @@
+Requirements for Random Date Genartor in the form of user stories:
+
+*User story1:* As a user, I want to be able to generate a specified number of random dates within a given date range, so that I can use them for various purposes such as testing or data analysis.
+
+Acceptance Criteria:
+The user can input the desired number of dates.
+The user can specify the start and end dates of the range.
+The tool generates the specified number of random dates within the given range.
+The generated dates are displayed in the specified format (e.g., YYYY-MM-DD, YYYY-MM-DD hh:mm:ss).
+The tool handles invalid input (e.g., negative number of dates, invalid date formats, start date greater than end date) with appropriate error messages.
+
+*User Story 2:* As a user, I want to be able to customize the date format of the generated dates, so that I can use them in different applications with varying date formatting requirements.
+
+Acceptance Criteria:
+The user can select from a list of predefined date formats or select a custom date format.
+The tool generates dates in the specified custom format.
+The tool supports common date format specifiers (e.g., YYYY, MM, DD, hh, mm, ss).
+The tool handles invalid custom date formats with appropriate error messages.
+
+*User Story 3:* As a user, I want the generated dates to be truly random, so that I can use them for unbiased simulations and data analysis.
+
+Acceptance Criteria:
+The generated dates should not exhibit any patterns or biases.
+The tool should use a robust random number generator to ensure the randomness of the dates.
+The tool should be able to generate dates uniformly distributed within the specified range.
+
+*User Story 4:* As a user, I want to be able to easily copy and paste the generated dates, so that I can easily use them in other applications.
+
+Acceptance Criteria:
+The generated dates are displayed in a clear and easy-to-read format.
+The user should able to copy the generated dates to the clipboard using copy option.
+
+*User Story 5:* As a user, I want to be able to easily download the generated dates in the form a text file, so that I can easily use them in other applications.
+
+Acceptance Criteria:
+The generated dates are displayed in a clear and easy-to-read format.
+The user should able to download the generated dates using download option.
+
+*User Story 6:* As a user, I want the tool to be easy to use and accessible from different devices, so that I can use it conveniently when needed.
+
+Acceptance Criteria:
+The tool has a simple and intuitive user interface.
+The tool is responsive and works well on different devices (desktops, laptops, tablets, and mobile phones).
+The tool is accessible to users with disabilities (e.g., screen reader compatibility).
