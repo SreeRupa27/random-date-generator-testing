@@ -1,2 +1,5 @@
 # random-date-generator-testing
-QA Testing Assessment for Random Date Generator
+
+The purpose of this test is to evaluate the functionality, accuracy, and reliability of the random date generator available at: https://codebeautify.org/generate-random-date
+
+The test involves generating random dates within a specified range and validating whether the generated dates meet expected conditions.
